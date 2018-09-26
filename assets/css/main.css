@@ -1,0 +1,102 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Menu */
+
+.menu-principal {
+    background-color: #870006;
+}
+
+@media (min-width: 991px) {
+    .menu-principal {
+        height: 75px;
+    }
+}
+
+.menu-principal ul > li > a {
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu-principal .navbar-toggler {
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../img/icone-menu.png') !important;
+}
+
+
+/* Barra de Pesquisa e Icones de Redes Socias */
+
+.redes-sociais-pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    height: 50px;
+}
+
+.linha-redes-sociais-pesquisa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-redes-socias-topo > a {
+    font-size: 20px;
+    color: #fff;
+    padding-right: 12px;
+}
+
+.icones-redes-socias-topo > a:hover {
+    color: #870006;
+    border: none;
+    transition: 0.3s;
+}
+
+.icone-pesquisa-topo > button {
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.icone-pesquisa-topo > button:hover {
+    color: #870006;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#barra-pesquisa {
+    padding: 20px 0;
+    background-color: #870006;]
+    height: 50px;
+}
+
+.formulario-pesquisa-topo button {
+    background-color: #000;
+    color: #fff;
+}
+
+.input-formulario-pesquisa-topo:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.input-formulario-pesquisa-topo::placeholder {
+    font-family: "Open Sans" !important;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .col-pesquisa-mob {
+        padding: 3px;
+    }
+}
