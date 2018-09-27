@@ -76,7 +76,7 @@ body {
 
 #barra-pesquisa {
     padding: 20px 0;
-    background-color: #870006;]
+    background-color: #870006;
     height: 50px;
 }
 
@@ -99,4 +99,26 @@ body {
     .col-pesquisa-mob {
         padding: 3px;
     }
+}
+
+/*Footer*/
+
+.footer-color {
+    background-color: #870006;
+    color: white;
+}
+
+.footer-cop-color{
+    background-color: #000;
+    color: white;
+}
+
+.nefe-logo{
+    width: 100px;
+    height: 100px;
+}
+.nefe-align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
