@@ -7,24 +7,27 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <!-- Shortcut icon -->
+    <link rel="Shortcut icon" href="assets/img/mamute.png">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- Local CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Hello, world!</title>
+    <title>Atlética-TQ</title>
 </head>
 
 <body>
     <header class="cabecalho-principal">
         <nav class="navbar navbar-expand-lg menu-principal">
             <div class="container">
-                <a class="navbar-brand" title="Atlética Fatec Taquaritinga" href="#">
-                  <img class ="mamute-logo mb-1"src="assets/img/atlogo.png" alt="Logo Atlética Fatec Taquaritinga">
+                <a class="navbar-brand atletica" title="Atlética Fatec Taquaritinga" href="#">
+                    <img class="mamute" src="assets/img/mamute.png" alt="Logo Atlética Fatec Taquaritinga">
+                    Atlética
+                    <p>Mamutes Fatecanos</p>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal">
                     <span class="navbar-toggler-icon"></span>
@@ -33,16 +36,16 @@
                 <div class="collapse navbar-collapse" id="menu-principal">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#eventos">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#time">Time</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -52,8 +55,8 @@
         <nav class="redes-sociais-pesquisa">
             <div class="container">
                 <div class="linha-redes-sociais-pesquisa">
-                    <div class="icones-redes-socias-topo">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    <div class="icones-redes-socias-topo ml-1">
+                        <a href="https://www.facebook.com/chamanomamute/"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
 
@@ -85,9 +88,80 @@
             </div>
         </div>
     </header>
-
-<!-- Footer -->
-<footer class="page-footer font-small indigo footer-color">
+    <main>
+    <section>
+        <div class="noticias">
+            <div class="box-intro">
+                <div class="assine">
+                    <hr>
+                    <h2>SEJA UM FATECANO</h2>
+                    <p>Ainda não é um mamute fatecano ?</p>
+                    <p>Entre agora para o nosso time, conheça a melhor faculdade de tecnologia da região.
+                    </p>
+                    <a href="http://201.55.32.21:8001/">Ver mais</a>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="intro container">
+        <div class="welcome">
+            <h2>Bem vindo !</h2>
+            <hr class="separador">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="rules">
+            <h2>Regras</h2>
+            <hr class="separador">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </div>
+        <div class="notas">
+            <h2>Notas</h2>
+            <hr class="separador">
+            Nenhuma nota disponível, por enquanto.
+        </div>
+    </section>
+    <section class="eventos container" id="eventos">
+        <h2>Eventos</h2>
+        <p>Nada, por enquanto...</p>
+    </section>
+    <section class="eventos container">
+        <h2>Notícias</h2>
+        <p>Nada, por enquanto...</p>
+    </section>
+    <section class="time" id="time">
+    <div class="box-intro">
+        <div class="time-p">
+            <img src="assets/img/user.svg" alt="membro da equipe">
+            <h2>Nome</h2>
+            <p>Cargo</p>
+        </div>
+        <div class="time-p">
+           <img src="assets/img/user.svg" alt="membro da equipe">
+             <h2>Nome</h2>
+            <p>Cargo</p>
+        </div>
+        <div class="time-p">
+            <img src="assets/img/user.svg" alt="membro da equipe">
+             <h2>Nome</h2>
+            <p>Cargo</p>
+        </div>
+        <div class="time-p">
+            <img src="assets/img/user.svg" alt="membro da equipe">
+             <h2>Nome</h2>
+            <p>Cargo</p>
+        </div>
+    </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo footer-color" id="contato">
         <!-- Footer Links -->
         <div class="container text-center text-md-left">
 
@@ -126,8 +200,8 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <p>Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi,
-                                sou preto inteiris, inteiris. Casamentiss faiz malandris se pirulitá.
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                         </li>
 
@@ -142,7 +216,7 @@
                 <div class="col-md-3 mx-auto">
 
                     <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Onde estamos:</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Onde estamos</h5>
 
                     <ul class="list-unstyled">
                         <li>
@@ -171,21 +245,62 @@
         <!-- Footer Links -->
 
         <!-- Copyright -->
-        <div class="nefe-align footer-cop-color"><p class="ml-3">© 2018 Copyright: Atlética</p>
-            <a href="http://201.55.32.21:8001/nefe/index.html">
-                <img class="nefe-logo mr-3"src="http://201.55.32.21:8001/nefe/img/logo.svg" alt="">     
-            </a>
-        </div>
+        <section class="copy">
+            <div>
+                © 2019 Copyright: Atlética-TQ
+            </div>
+            <div class="csocial">
+                <a href="https://www.facebook.com/chamanomamute/"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div>
+                <span>Desenvolvido por:</span><a href="http://201.55.32.21:8001/nefe/"> NEFE</a>
+            </div>
+        </section>
         <!-- Copyright -->
 
     </footer>
+<!-- Footer --> 
     <!-- Footer -->  
   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+
+     //scrollSpy function
+    function scrollSpy() {
+      var sections = ['eventos', 'time', 'contato'];
+      var current;
+      for (var i = 0; i < sections.length; i++) {
+        if ( $('#'+sections[i]).offset().top <= $(window).scrollTop() ) {
+          current = sections[i];
+        }
+      }
+      $("a[href='#"+current+"']").addClass('active');
+      $("a").not("a[href='#"+current+"']").removeClass('active');      
+    }
+    // smooth scrolling navigation
+    $("a").click( function() {
+      var target = $(this).attr("href");
+      $("body, html").animate({
+        scrollTop: $(target).offset().top
+      }, 1000);
+      return false;
+    });
+    //scrollSpy call
+    $(document).ready( function() {
+      scrollSpy();
+    });
+    $(window).scroll( function() {
+      scrollSpy();
+    });
+
+    </script>
+
 </body>
 
 </html>
