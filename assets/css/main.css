@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Teko|Roboto');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #111111;
+}
+
+h2 {
+    
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+/* Menu */
+
+.scrollsuave {
+
+}
+
+.atletica {
+    font-family: "Teko";
+    font-size: 2.15em;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.atletica p {
+    font-size: 0.70rem;
+    margin-left: 75px;
+    transform: translateY(-20px);
+    position: absolute;
+}
+
+.mamute {
+    height: 70px;
+    width: 70px;
+}
+
+.menu-principal {
+    background-color: #870006;
+}
+
+@media (min-width: 991px) {
+    .menu-principal {
+        height: 90px;
+    }
+}
+
+.menu-principal ul > li > a {
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu-principal ul > li > a:hover {
+    color: #000;
+}
+
+
+.menu-principal .navbar-toggler {
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../img/icone-menu.png') !important;
+}
+
+
+/* Barra de Pesquisa e Icones de Redes Socias */
+
+.redes-sociais-pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    height: 50px;
+}
+
+.linha-redes-sociais-pesquisa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-redes-socias-topo > a {
+    font-size: 20px;
+    color: #fff;
+    padding-right: 12px;
+}
+
+.icones-redes-socias-topo > a:hover {
+    color: #870006;
+    border: none;
+    transition: 0.3s;
+}
+
+.icone-pesquisa-topo > button {
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.icone-pesquisa-topo > button:hover {
+    color: #870006;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#barra-pesquisa {
+    padding: 30px 0;
+    background-color: #870006;
+    height: 100px;
+    paddin-bottom: 30px;
+}
+
+.formulario-pesquisa-topo button {
+    background-color: #000;
+    color: #fff;
+}
+
+.input-formulario-pesquisa-topo:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.input-formulario-pesquisa-topo::placeholder {
+    font-family: "Open Sans" !important;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .col-pesquisa-mob {
+        padding: 3px;
+    }
+}
+
+/*Main*/
+
+.separador {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: rgb(135,0,6);
+    margin: 20px auto;
+
+}
+
+.box-intro {
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.noticias {
+   background-image: url('../img/intro.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;   
+}
+
+.assine hr {
+    padding: 10px;
+    height: 0;
+}
+
+.assine {
+    padding-top: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.assine p {
+    max-width: 500px;
+}
+
+.assine a {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: #fff !important;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+.intro {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    display: grid;
+    grid-template:
+    "welcome rules notas"
+    ;
+    grid-gap: 10px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 20px;
+    grid-area: 'welcome';
+}
+
+.rules {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    grid-area: 'welcome';
+}
+
+.notas {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    grid-area: 'welcome';
+}
+
+@media (max-width: 1065px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.rules ul li {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+.assine a:hover {
+    background: rgb(135,0,6);
+}
+
+.eventos {
+   color: #fff;
+}
+
+.eventos::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: rgb(135,0,6);
+    margin: 20px auto;
+    margin-bottom: 60px;
+}
+
+.eventos::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: rgb(135,0,6);
+    margin: 20px auto;
+}
+
+.cardevent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    text-align: justify;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 10px; 
+    margin: 20px;
+    color: white;
+    max-width: 300px;
+}
+
+.cardevent a {
+    font-size: 1.25em;
+}
+
+.cardevent img {
+    height: 250px;
+    width: 270px;
+}
+
+.time {
+    background-image: url('../img/time.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.time img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.time-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px;
+}
+
+.time h2 {
+    margin-top: 10px;
+    font-size: 2.25em;
+}
+/*Footer*/
+
+footer{
+    background-color: #870006;
+    color: white;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copy {
+    padding: 10px;
+    margin-top: 30px;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+.copy a:hover {
+    color: #870006;
+}
+
+.csocial a{
+    margin: 5px;
+    font-size: 1.55em;
+}
+
+@media (max-width: 900px) {
+    .copy {
+        flex-direction: column;
+    }
+}
