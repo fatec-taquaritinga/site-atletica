@@ -7,6 +7,11 @@ body {
 
 /* Menu */
 
+.mamute-logo {
+    height: 90px;
+    width: 90px;
+}
+
 .menu-principal {
     background-color: #870006;
 }
